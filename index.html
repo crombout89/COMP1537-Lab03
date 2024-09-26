@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vancouver</title>
+
+    <!-- CSS Stylesheet -->
+     <link rel="stylesheet" href="style.css"> 
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="font-sans leading-7">
+  <!-- Page Header -->
+  <header id="page-header" class="relative h-80 bg-no-repeat bg-cover bg-center text-slate-200 py-20 md:py-0" style="background-image: url('images/vancouver-01.jpeg');">
+    <!-- Background Overlay -->
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+
+    <!-- Nav Menu -->
+    <nav id="nav-menu" class="relative flex flex-row justify-between p-4">
+      <a href="#" class="px-4 py-4 text-2xl">Lorem.</a>
+      <a href="#" class="px-4 py-4 text-2xl">Lorem.</a>
+    </nav>
+
+    <!-- Page Header Content -->
+    <section id="header-content" class="relative container mx-auto pb-10">
+      <div class="flex flex-col items-center md:items-start">
+        <h1 class="inline-block text-6xl font-extrabold" style="padding-top: 1rem;">Vancouver.</h1>
+        <h2 class="inline-block text-xlg mb-12 tracking-widest">The Best Canadian City</h2>
+        <div class="inline-block">
+          <a href="#" class="bg-cyan-600 p-3 rounded text-lg hover:bg-cyan-700">Come Visit!</a>
+        </div>
+      </div>
+    </section>
+  </header>
+
+    <!--Page Content-->
+    <main class="flex flex-col sm:flex-row container mx-auto gap-4 mt-4 mb-10 px-10 md:px-0">
+            <section id="left-content" class="basis-3/4">
+                <article id="left-01" class="mb-4">
+                    <h2 id="section-title-01" class="text-2xl">British Columbia Institute of Technology</h2>
+                    <h3 id="section-subtitle-01" class="text-1xl text-slate-400">Downtown Campus</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque id officia aliquam odio reprehenderit illum illo. Blanditiis ratione accusantium ipsa vitae labore dicta dolorem, eum quod tempore voluptate cupiditate quo.</p>
+                    <p class="mt-1.4" style="padding-bottom: 1rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ut aliquid, ad ducimus incidunt aspernatur ea officiis deleniti perspiciatis ex itaque vel quasi, modi exercitationem repellendus error amet quis atque!</p>
+
+                    <img src="images/vancouver-02.jpeg" id="left-img" alt class="mx-auto mt-2">
+                </article>
+
+                <article id="left-02" class="mb-4">
+                    <h2 id="section-title-02" class="text-2xl">Computer Systems Technology</h2>
+                    <h3 id="section-subtitle-02" class="text-1xl text-slate-400">Lorem ipsum dolor sit.</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque id officia aliquam odio reprehenderit illum illo. Blanditiis ratione accusantium ipsa vitae labore dicta dolorem, eum quod tempore voluptate cupiditate quo.</p>
+                </article>
+
+                <article id="left-03" class="mb-4">
+                    <h2 id="section-title-03" class="text-2xl">Best Crying Spots at BCIT</h2>
+                    <h3 id="section-subtitle-03" class="text-1xl text-slate-400">Lorem ipsum dolor sit.</h3>
+                    <p style="padding-bottom: 1rem;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque id officia aliquam odio reprehenderit illum illo. Blanditiis ratione accusantium ipsa vitae labore dicta dolorem, eum quod tempore voluptate cupiditate quo.</p>
+                    <div id="view-more" class="flex justify-end">
+                        <button id="reddit" class="bg-cyan-600 p-3 rounded text-lg hover:bg-cyan-700 text-white">
+                            <a href="https://www.reddit.com/r/BCIT/comments/1fbj95l/best_crying_spots/" target="_blank">View More</a>
+                        </button>
+                    </div>
+                </article>
+            </section>
+
+            <aside id="right-content" class="basis-1/4">
+                <div id="right-01" class="card">
+                    <img src="images/vancouver-park-01.jpg" id="right-img-01" class="mx-auto mt-2">
+                    <h2 id="right-01" class="text-center md:text-left text-cyan-600 text-lg mt-1">Hinge Park</h1>
+                    <p class="text-center md:text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio itaque aperiam vero sunt laboriosam tenetur.</p>
+                </div>
+
+                <div id="right-02" class="card mt-6">
+                    <img src="images/vancouver-park-02.webp" id="right-img-02">
+                    <h2 id="right-02" class="text-center md:text-left text-cyan-600 text-lg mt-1">Stanley Park</h2>
+                    <p class="text-center md:text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio itaque aperiam vero sunt laboriosam tenetur.</p>
+                </div>
+
+                <div id="right-03" class="card mt-6">
+                    <img src="images/vancouver-park-03.jpg" id="right-img-03" class="text-center md:text-left text-cyan-600 text-lg mt-1">
+                    <h2 id="right-03" class="text-center md:text-left text-cyan-600 text-lg mt-1">Queen Elizabeth Park</h2>
+                    <p class="text-center md:text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio itaque aperiam vero sunt laboriosam tenetur.</p>
+                </div>
+            </aside>
+
+    </main>
+    <footer id="footer" class="h-40 flex items-center justify-center mx-auto pb-10 px-10 md:px-0 bg-cyan-600 text-white">
+            <h4 id="tailwind-disclaimer" class="font-semibold text-2xl">Built with <a href="https://tailwindui.com/" target="_blank" class="text-cyan-200 font-bold">Tailwind</a></h4>
+    </footer>
+</body>
+</html>

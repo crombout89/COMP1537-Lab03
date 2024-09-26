@@ -1,0 +1,45 @@
+/* styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#header-content {
+    max-width: 1200px;
+}
+
+#left-content {
+    padding: 2rem 3rem;
+}
+
+#right-content {
+    padding: 2rem 3rem 2rem 0rem;
+}
+
+#left-img {
+    max-width: 800px;
+    padding: 1rem 0;
+}
+
+
+#right-content h2 {
+    font-size: 1.35rem;
+    padding: 10px 0;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+#page-header {
+    padding: 0 !important;
+}
+
+#left-content, #right-content {
+    padding: .75rem 0;
+}
+
+#left-img {
+    max-width: 350px;
+}
+
+}
